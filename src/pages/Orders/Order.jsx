@@ -65,7 +65,7 @@ function Order({ url }) {
                     </p>
                   </div>
                   <p>Item : {order.items.length}</p>
-                  <p>${order.amount}</p>
+                  <p>₹{order.amount}</p>
                   <select name="" id="" onChange={(e) => statusHandler(e, order._id)} value={order.status}>
                     <option value="Food Processing">Food Processing</option>
                     <option value="Out For delevry">Out For delivery</option>
